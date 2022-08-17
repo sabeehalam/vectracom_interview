@@ -146,7 +146,10 @@ c = C()
 d = D()
 
 
-a.run(b,c,d)
-b.run(a,c,d)
-c.run(a,b,d)
-d.run(a,b,c)
+i = 5
+while(i!=0):
+    a.run(b,c,d)
+    b.run(a,c,d)
+    c.run(a,b,d)
+    d.run(a,b,c)
+    i = i-1
