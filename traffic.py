@@ -16,7 +16,7 @@ class A(traffic_lights):
         print("G_A:",self.green,"G_B:",B.green,"G_C:",  C.green,"G_D:", D.green)
         
     def run(self, a, b, c):
-        
+        #Run the sequence of traffic lights
         self.red = 1
         self.yellow = 1
         self.green = 0
@@ -49,7 +49,7 @@ class B(traffic_lights):
         print("G_A:",A.green,"G_B:",self.green,"G_C:",  C.green,"G_D:", D.green)
         
     def run(self, a, b, c):
-        
+        #Run the sequence of traffic lights
         self.red = 1
         self.yellow = 1
         self.green = 0
@@ -82,7 +82,7 @@ class C(traffic_lights):
         print("G_A:",A.green,"G_B:",B.green,"G_C:",  self.green,"G_D:", D.green)
     
     def run(self, a, b, c):
-        
+        #Run the sequence of traffic lights
         self.red = 1
         self.yellow = 1
         self.green = 0
@@ -115,7 +115,7 @@ class D(traffic_lights):
         print("G_A:",self.green,"G_B:",B.green,"G_C:",  C.green,"G_D:", self.green)
     
     def run(self, a, b,c):
-        
+        #Run the sequence of traffic lights
         self.red = 1
         self.yellow = 1
         self.green = 0
