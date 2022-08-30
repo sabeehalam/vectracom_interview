@@ -12,17 +12,17 @@ class traffic_lights:
         
 #######################################################################################
 
-        
+    #Initiate the traffic light run    
     def run(self, a, b, c, d):
-        #Print the lights 
         
+        
+        #Print the lights
         def print_lights(A,B,C,D):
             print("R_A:", A.red, "R_B:", B.red, "R_C:", C.red, "R_D:", D.red)
             print("Y_A:", A.yellow, "Y_B:", B.yellow,"Y_C:", C.yellow,"Y_D:", D.yellow)
             print("G_A:",A.green,"G_B:",B.green,"G_C:",  C.green,"G_D:", D.green)
             
         #Run the sequence of traffic lights
-    
         self.red = 1
         self.yellow = 1
         self.green = 0
